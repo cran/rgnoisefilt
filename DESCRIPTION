@@ -1,5 +1,5 @@
 Package: rgnoisefilt
-Version: 1.1.1
+Version: 1.1.2
 Title: Elimination of Noisy Samples in Regression Datasets using Noise
         Filters
 Authors@R: c(
@@ -44,8 +44,8 @@ Description: Traditional noise filtering methods aim at removing noisy samples f
 License: GPL (>= 3)
 URL: https://github.com/juanmartinsantos/rgnoisefilt
 Depends: R (>= 3.2.0)
-Imports: e1071, FNN, gbm, modelr, nnet, randomForest, rpart, UBL,
-        arules, infotheo, entropy, ggplot2
+Imports: e1071, FNN, gbm, modelr, nnet, randomForest, rpart, arules,
+        infotheo, entropy, ggplot2, class, kknn
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 NeedsCompilation: no
@@ -60,8 +60,8 @@ Author: Juan Martin [aut, cre],
   Francisco Herrera [ctb] (Author of the NoiseFiltersR package)
 Maintainer: Juan Martin <juanmartin@usal.es>
 Repository: CRAN
-Date/Publication: 2023-09-13 09:30:02 UTC
+Date/Publication: 2023-10-02 08:10:02 UTC
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-Packaged: 2023-09-12 11:50:27 UTC; juanm
+Packaged: 2023-10-02 07:47:28 UTC; JuanMiguelMartinSant
