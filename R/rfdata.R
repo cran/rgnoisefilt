@@ -73,7 +73,7 @@ print.rfdata <- function(x, ...){
 #' @param showid a logical indicating if the indices of noisy samples must be displayed (default: \code{FALSE}).
 #' @param ... other options to pass to the function.
 #'
-#' @return A list including information related to the noise filtering process contained in the object \code{object} of class {rfdata} with the following elements:
+#' @return A list including information related to the noise filtering process contained in the object \code{object} of class \code{rfdata} with the following elements:
 #'
 #' \item{xclean}{a data frame with the input attributes of clean samples (without errors).}
 #' \item{yclean}{a double vector with the output regressand of clean samples (without errors).}

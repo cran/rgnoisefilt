@@ -83,3 +83,4 @@ perform_kknn <- function(x, formu, k) {
   })
   return(prediction)
 }
+

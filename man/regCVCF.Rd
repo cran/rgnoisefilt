@@ -49,7 +49,7 @@ Application of the regCVCF noise filtering method in a regression dataset.
 }
 \details{
 In classification problems, \emph{Cross-Validated Committees Filter} (CVCF) divides the dataset into \code{nfolds} cross-validation folds and builds
-a decision tree with {C4.5} on each one. Using each classifier, a prediction of the whole dataset is obtained.
+a decision tree with \code{C4.5} on each one. Using each classifier, a prediction of the whole dataset is obtained.
 Finally, a sample is considered as noisy using a voting scheme (indicated by the argument \code{vote}): if equal to \code{TRUE},
 a consensus voting is used (in which a sample is removed if it is misclassified by all the models); if equal to \code{FALSE},
 a majority voting is used (in which a sample is removed if it is misclassified by more than a half of the models).
